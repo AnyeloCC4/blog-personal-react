@@ -1,0 +1,14 @@
+@import "./globales";
+
+.header {
+  height: 50px;
+  &__nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: inherit;
+  }
+  a {
+    color: $color-claro;
+  }
+}

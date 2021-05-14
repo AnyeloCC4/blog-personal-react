@@ -1,0 +1,28 @@
+@import "./globales";
+.footer {
+  border-top: 2px solid $color-claro;
+  padding-top: 30px;
+  width: 100%;
+  &__social {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+  }
+  &__social a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $color-claro;
+  }
+  &__social a img {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  &__end {
+    color: $color-claro;
+    margin: 20px 0;
+    text-align: center;
+  }
+}

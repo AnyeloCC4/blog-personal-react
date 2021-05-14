@@ -1,0 +1,51 @@
+@import "./globales";
+@import "./media";
+.home {
+  &__banner {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid $color-claro;
+  }
+  &__banner--img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid $color-claro;
+  }
+  &__banner--name {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $color-claro;
+  }
+  &__banner--name a {
+    color: $color-claro;
+    text-decoration: underline;
+  }
+  &__title {
+    margin: 20px auto;
+    padding: 10px;
+    width: 90%;
+    color: $color-claro;
+    text-align: center;
+    border-bottom: 2px solid $color-claro;
+  }
+  &__blog {
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template: repeat(1, minmax(380px, 400px)) / repeat(
+        1,
+        minmax(280px, 480px)
+      );
+    gap: 20px;
+    justify-content: center;
+    grid-auto-rows: minmax(250px, 400px);
+  }
+}

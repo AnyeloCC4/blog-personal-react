@@ -1,0 +1,16 @@
+@import "./globales";
+.blog--container {
+  background: $background-blog;
+  color: $color-oscuro;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.blog--container img {
+  width: 100%;
+  max-height: 60%;
+  background-size: contain;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 10px;
+}

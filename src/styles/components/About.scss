@@ -1,0 +1,45 @@
+@import "./globales";
+
+.about {
+  &__profile {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $color-claro;
+  }
+  &__profile img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 5px solid $background-blog;
+    margin-bottom: 20px;
+  }
+  &__description {
+    color: $color-claro;
+    margin: 10px auto;
+    width: 90%;
+  }
+  &__description h2 {
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+  }
+  &__description p {
+    margin-bottom: 20px;
+  }
+  &__portfolio {
+    color: $color-claro;
+    margin: 20px auto;
+    width: 80%;
+  }
+  &__portfolio h1 {
+    border-top: 2px solid $color-claro;
+    border-bottom: 2px solid $color-claro;
+    padding: 20px;
+    text-align: center;
+  }
+  &__portfolio p {
+    margin: 20px 0;
+  }
+}

@@ -1,0 +1,48 @@
+@import "./globales";
+
+.caminoDev {
+  &__banner {
+    margin: 0 auto;
+    height: 300px;
+    width: 80%;
+  }
+  &__banner img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid $color-claro;
+  }
+
+  &__author {
+    height: 100px;
+    margin: 20px auto;
+    width: 90%;
+  }
+  &__author--card {
+    max-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: inherit;
+    color: $color-claro;
+  }
+  &__author--card img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  }
+  &__post {
+    background: $background-blog;
+    color: $color-oscuro;
+    margin: 20px auto;
+    padding: 10px;
+    width: 90%;
+    border-radius: 20px;
+  }
+  &__post h1,
+  h3,
+  p {
+    margin-bottom: 20px;
+  }
+}

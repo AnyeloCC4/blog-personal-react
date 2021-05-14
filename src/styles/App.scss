@@ -1,0 +1,36 @@
+@import "../styles/components/media";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+  background: rgb(94, 55, 124);
+  background: linear-gradient(
+    0deg,
+    rgba(94, 55, 124, 1) 25%,
+    rgba(85, 57, 106, 1) 60%,
+    rgba(20, 5, 35, 1) 100%
+  );
+  min-height: 100vh;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.6rem;
+}
+a {
+  text-decoration: none;
+  font-size: 2rem;
+}

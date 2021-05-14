@@ -1,0 +1,26 @@
+@media only screen and (min-width: 1024px) {
+  .home__blog {
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template: repeat(1, minmax(380px, 400px)) / repeat(
+        2,
+        minmax(280px, 350px)
+      );
+    gap: 20px;
+    justify-content: center;
+    grid-auto-rows: minmax(380px, 400px);
+  }
+  .blogs__container {
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template: repeat(1, minmax(380px, 400px)) / repeat(
+        2,
+        minmax(280px, 350px)
+      );
+    gap: 20px;
+    justify-content: center;
+    grid-auto-rows: minmax(380px, 400px);
+  }
+}
