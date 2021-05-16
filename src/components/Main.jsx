@@ -6,7 +6,7 @@ import fotoPerfil from '../assets/static/foto-perfil.jpg'
 const Main = ({ children }) => (
   <main className="home">
     <section className="home__banner">
-      <img className="home__banner--img" src={fotoPerfil} alt="Imagen de perfil" />
+      <img className="home__banner--img" src={fotoPerfil} alt="Imagen de perfil" title="Foto de perfil de Anyelo"/>
 
       <div className="home__banner--name">
         <h1>Anyelo Cruz</h1>

@@ -2,15 +2,12 @@
 
 .caminoDev {
   &__banner {
-    margin: 0 auto;
+    background-image: url("../../assets//static/camino-dev.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 300px;
-    width: 80%;
-  }
-  &__banner img {
-    height: 100%;
     width: 100%;
-    border-radius: 20px;
-    border: 2px solid $color-claro;
   }
 
   &__author {
@@ -41,8 +38,8 @@
     border-radius: 20px;
   }
   &__post h1,
-  h3,
-  p {
+  &__post h3,
+  &__post p {
     margin-bottom: 20px;
   }
 }
