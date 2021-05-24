@@ -1,12 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 import '../styles/components/Main.scss'
-import fotoPerfil from '../assets/static/foto-perfil.jpg'
+import fotoPerfil2 from '../assets/static/foto-perfil2.jpg'
 
 const Main = ({ children }) => (
   <main className="home">
     <section className="home__banner">
-      <img className="home__banner--img" src={fotoPerfil} alt="Imagen de perfil" title="Foto de perfil de Anyelo"/>
+      <img className="home__banner--img" src={fotoPerfil2} alt="Imagen de perfil" title="Foto de perfil de Anyelo"/>
 
       <div className="home__banner--name">
         <h1>Anyelo Cruz</h1>

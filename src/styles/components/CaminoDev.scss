@@ -30,8 +30,10 @@
     width: 50px;
   }
   &__post {
-    background: $background-blog;
-    color: $color-oscuro;
+    background: rgba(0, 0, 0, 0.226);
+    color: $color-claro;
+    border: 2px solid $color-claro;
+    box-shadow: 0 0 3px;
     margin: 20px auto;
     padding: 10px;
     width: 90%;
