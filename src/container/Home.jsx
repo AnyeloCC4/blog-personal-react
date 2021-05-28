@@ -1,23 +1,15 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import Main from '../components/Main';
-import ContainerBlog from '../components/ContainerBlog';
-import imagenBlog1 from '../assets/static/camino-dev.jpeg';
+import MainHome from '../components/MainHome';
 
 const Home = () => (
   <>
     <Helmet>
+      <meta name="description" content="Anyelo Cruz Frontend Developer, Blog creado para compartir informacion y conocimientos sobre tecnologias webs"/>
+      <meta name="robots" content="index,follow"/>
       <title>Bienvenido - Anyelo Cruz</title>
     </Helmet>
-    <Main>
-      <ContainerBlog
-        title="Mi Camino en la Programación"
-        parrafo="Con la ayuda de internet puedes lograrlo, pero con tanta información, ¿por donde comienzas?"
-        imagenBlog={imagenBlog1}
-        to="/camino-dev"
-      />
-
-    </Main>
+    <MainHome />
   </>
 );
 

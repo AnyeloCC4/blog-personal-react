@@ -1,0 +1,14 @@
+@import "../components/globales";
+
+.section__blogs {
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+  grid-template: repeat(1, minmax(380px, 400px)) / repeat(
+      1,
+      minmax(280px, 400px)
+    );
+  gap: 20px;
+  justify-content: center;
+  grid-auto-rows: minmax(250px, 400px);
+}

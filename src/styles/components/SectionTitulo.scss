@@ -1,0 +1,9 @@
+@import "./globales";
+.section__title {
+  margin: 20px auto;
+  padding: 10px;
+  width: 90%;
+  color: $color-claro;
+  text-align: center;
+  border-bottom: 2px solid $color-claro;
+}

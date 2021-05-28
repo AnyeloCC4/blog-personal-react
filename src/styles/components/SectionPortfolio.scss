@@ -1,0 +1,16 @@
+@import "./globales";
+
+.section__portfolio {
+  color: $color-claro;
+  margin: 20px auto;
+  width: 80%;
+}
+.section__portfolio h1 {
+  border-top: 2px solid $color-claro;
+  border-bottom: 2px solid $color-claro;
+  padding: 20px;
+  text-align: center;
+}
+.section__portfolio p {
+  margin: 20px 0;
+}

@@ -1,0 +1,14 @@
+@import "./globales";
+
+.section__description {
+  color: $color-claro;
+  margin: 10px auto;
+  width: 90%;
+}
+.section__description h2 {
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+}
+.section__description p {
+  margin-bottom: 20px;
+}

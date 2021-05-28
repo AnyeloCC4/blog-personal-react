@@ -1,0 +1,14 @@
+@import "./globales";
+
+.section__post {
+  color: $color-claro;
+  margin: 20px auto;
+  padding: 10px;
+  width: 90%;
+  border-radius: 20px;
+}
+.section__post h1,
+.section__post h3,
+.section__post p {
+  margin-bottom: 20px;
+}

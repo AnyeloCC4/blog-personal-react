@@ -1,0 +1,29 @@
+@import "./globales";
+
+.section__banner {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid $color-claro;
+}
+.section__banner--img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid $color-claro;
+}
+.section__banner--name {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $color-claro;
+}
+.section__banner--name a {
+  color: $color-claro;
+  text-decoration: underline;
+}
