@@ -14,19 +14,18 @@ const MainHome = () => (
       tituloSecundario="Últimas Publicaciones"
     />
     <SectionBlog>
-      <ContainerBlog
-        to="/camino-dev"
-        imagenBlog={caminoDev}
-        titleBlog="Mí Camino en la Programación"
-        parrafo="Con la ayuda de internet puedes lograrlo, pero con tanta infromación, ¿Por dónde comienzas?"
-      />
       <ContainerBlog 
         to="#"
         titleBlog="Extensiones Para VS Code"
         parrafo="Proximamente"
         imagenBlog={imagenBlog2}  
       />
-
+      <ContainerBlog
+        to="/camino-dev"
+        imagenBlog={caminoDev}
+        titleBlog="Mí Camino en la Programación"
+        parrafo="Con la ayuda de internet puedes lograrlo, pero con tanta infromación, ¿Por dónde comienzas?"
+      />
     </SectionBlog>
   </main>
 );
