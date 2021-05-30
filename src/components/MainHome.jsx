@@ -15,10 +15,10 @@ const MainHome = () => (
     />
     <SectionBlog>
       <ContainerBlog 
-        to="#"
-        titleBlog="Extensiones Para VS Code"
-        parrafo="Proximamente"
+        to="/extensiones-vsc"
         imagenBlog={imagenBlog2}  
+        titleBlog="Extensiones Para Visual Studio Code"
+        parrafo="Proximamente"
       />
       <ContainerBlog
         to="/camino-dev"

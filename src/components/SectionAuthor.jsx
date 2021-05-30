@@ -8,7 +8,7 @@ const SectionAuthor = ({fecha}) => (
       <img src={fotoPerfil2} alt="foto de perfil" title="foto de perfil" />
       <div>
         <h3>Escrito por: Anyelo Cruz</h3>
-        <h3>{fecha}</h3>
+        <h3>Publicado: {fecha}</h3>
       </div>
     </div>
   </section>

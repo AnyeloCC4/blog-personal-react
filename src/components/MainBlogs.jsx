@@ -13,8 +13,8 @@ const MainBlogs = () => (
     />
     <SectionBlog>
       <ContainerBlog
-        to="#"
-        titleBlog="Extensiones Para VS Code"
+        to="/extensiones-vsc"
+        titleBlog="Extensiones Para Visual Studio Code"
         parrafo="Proximamente"
         imagenBlog={imagenBlog2}
       />
