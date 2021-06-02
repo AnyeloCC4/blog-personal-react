@@ -1,10 +1,10 @@
 import React from 'react';
-import {Helmet} from 'react-helmet'
-import MainBlog from '../components/MainBlog'
-import SectionBgImage from '../components/SectionBgImage'
-import SectionAuthor from '../components/SectionAuthor'
-import SectionContentBlog from '../components/SectionContentBlog'
-import bannerCaminoDev from '../assets/static/caminoDev1.png'
+import { Helmet } from 'react-helmet';
+import MainBlog from '../components/MainBlog';
+import SectionBgImage from '../components/SectionBgImage';
+import SectionAuthor from '../components/SectionAuthor';
+import SectionContentBlog from '../components/SectionContentBlog';
+import bgCaminoDev from '../assets/static/bgCaminoDev.png';
 
 const CaminoDev = () => (
   <>
@@ -12,8 +12,8 @@ const CaminoDev = () => (
       <title>Mi Camino en la Programación - Anyelo Cruz</title>
     </Helmet>
     <MainBlog>
-      <SectionBgImage imagenFondo={bannerCaminoDev}/>
-      <SectionAuthor fecha="14/05/2021"/>
+      <SectionBgImage imagenFondo={bgCaminoDev} />
+      <SectionAuthor fecha="14/05/2021" />
       <SectionContentBlog>
         <h1><em>Mi Camino en la Programación</em></h1>
         <p>Con la ayuda de internet puedes lograr aprender, pero con tanta información, ¿Por donde comienzas? Aquí es donde tomé la decisión de suscribir me a la plataforma online Platzi, con la esperanza de convertirme en un profesional en el campo de la tecnología. Bien, pero, ¿En qué área? ¿Cómo comienzo? ¿Cuánto tiempo me llevará? ¿Podré lograrlo? déjame que te cuente.</p>

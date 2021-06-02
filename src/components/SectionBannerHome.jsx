@@ -1,11 +1,15 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 import '../styles/components/SectionBannerHome.scss'
-import fotoPerfil2 from '../assets/static/foto-perfil2.jpg';
+import largeFotoPerfil from '../assets/static/largeFotoPerfil.png';
+import smallFotoPerfil from '../assets/static/smallFotoPerfil.png';
 
 const SectionBannerHome = () => (
   <section className="section__banner">
-    <img className="section__banner--img" src={fotoPerfil2} alt="Imagen de perfil" title="Foto de perfil de Anyelo" />
+    <picture>
+      <source media="(min-width: 768px)" srcSet={largeFotoPerfil}/>
+      <img className="section__banner--img" src={smallFotoPerfil} alt="Imagen de perfil" title="Foto de perfil de Anyelo" />
+    </picture>
 
     <div className="section__banner--name">
       <h1>Anyelo Cruz</h1>

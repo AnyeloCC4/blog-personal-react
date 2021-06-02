@@ -8,10 +8,19 @@
   border-radius: 20px;
 }
 .section__post img {
+  display: block;
+  margin: 0 auto 10px;
   width: 100%;
+  max-width: 768px;
 }
 .section__post h1,
 .section__post h3,
 .section__post p {
   margin-bottom: 20px;
+}
+.section__post a {
+  display: block;
+  margin: 10px 0;
+  color: $color-claro;
+  text-decoration: underline;
 }

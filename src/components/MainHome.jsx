@@ -3,8 +3,8 @@ import SectionBannerHome from '../components/SectionBannerHome'
 import SectionTitulo from '../components/SectionTitulo'
 import SectionBlog from '../components/SectionBlog'
 import ContainerBlog from './ContainerBlog'
-import caminoDev from '../assets/static/caminoDev1.png'
-import imagenBlog2 from '../assets/static/vscodeLogo.png'
+import cardCaminoDev from '../assets/static/cardCaminoDev.png'
+import cardVsCode from '../assets/static/cardVsCode.png'
 
 
 const MainHome = () => (
@@ -16,15 +16,15 @@ const MainHome = () => (
     <SectionBlog>
       <ContainerBlog 
         to="/extensiones-vsc"
-        imagenBlog={imagenBlog2}  
+        imagenBlog={cardVsCode}
         titleBlog="Extensiones Para Visual Studio Code"
-        parrafo="Proximamente"
+        parrafo="Quiero compartir contigo las extensiones que utilizo para codear."
       />
       <ContainerBlog
         to="/camino-dev"
-        imagenBlog={caminoDev}
+        imagenBlog={cardCaminoDev}
         titleBlog="Mí Camino en la Programación"
-        parrafo="Con la ayuda de internet puedes lograrlo, pero con tanta infromación, ¿Por dónde comienzas?"
+        parrafo="Con la ayuda de internet puedes lograrlo, pero con tanta información, ¿Por dónde comienzas?"
       />
     </SectionBlog>
   </main>

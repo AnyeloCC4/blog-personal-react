@@ -5,7 +5,7 @@ import SectionTitulo from './SectionTitulo'
 import SectionPortfolio from './SectionPortfolio'
 import SectionBlog from './SectionBlog'
 import ContainerBlog from './ContainerBlog'
-import enProceso from '../assets/static/enproceso.jpg'
+import enProceso from '../assets/static/enProceso.png'
 
 const MainAbout = () => (
   <main>
