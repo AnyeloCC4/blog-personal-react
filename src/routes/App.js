@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, HashRouter, Route, Switch } from 'react-router-dom';
 import Home from '../container/Home';
 import About from '../container/About';
 import Blogs from '../container/Blogs';
@@ -10,7 +10,7 @@ import Layout from '../components/Layout';
 import '../styles/App.scss';
 
 const App = () => (
-  <Router>
+  <HashRouter>
     <Layout>
       <Switch>
         <Route exact path="/" component={Home} />
@@ -21,7 +21,7 @@ const App = () => (
         <Route component={NotFound} />
       </Switch>
     </Layout>
-  </Router>
+  </HashRouter>
 );
 
 export default App;
