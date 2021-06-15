@@ -9,6 +9,8 @@ import bgCaminoDev from '../assets/static/bgCaminoDev.png';
 const CaminoDev = () => (
   <>
     <Helmet>
+      <meta name="description" content="Con la ayuda de internet puedes lograrlo, pero con tanta información, ¿Por dónde comienzas?" />
+      <meta name="robots" content="index,follow" />
       <title>Mi Camino en la Programación - Anyelo Cruz</title>
     </Helmet>
     <MainBlog>
