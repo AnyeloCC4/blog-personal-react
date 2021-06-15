@@ -21,6 +21,8 @@ import pathIntellisense from '../assets/static/pathIntellisense.gif'
 const ExtVsCode = () => (
   <>
     <Helmet>
+      <meta name="description" content="Hoy te quiero compartir las extensiones para Visual Studio Code que utilizo, estoy seguro que más de una te servirá en tu camino como desarrollador" />
+      <meta name="robots" content="index,follow"/>
       <title>Extensiones VS Code - Anyelo Cruz</title>
     </Helmet>
     <MainBlog>
@@ -29,7 +31,7 @@ const ExtVsCode = () => (
       <SectionContentBlog>
         <h1><em>Extensiones para Visual Studio Code</em></h1>
         <p>
-          Hoy te quiero compartir las extensiones para Visual Studio Code que utilizo, estoy seguro que más de una te servirá para allanar tu camino en la programación.
+          Hoy te quiero compartir las extensiones para Visual Studio Code que utilizo, estoy seguro que más de una te servirá en tu camino como desarrollador.
         </p>
 
         <h2>Auto Rename Tag</h2>
