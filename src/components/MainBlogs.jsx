@@ -2,8 +2,8 @@ import React from 'react';
 import SectionTitulo from './SectionTitulo';
 import SectionBlog from './SectionBlog';
 import ContainerBlog from './ContainerBlog';
-import cardCaminoDev from '../assets/static/cardCaminoDev.png'
-import cardVsCode from '../assets/static/cardVsCode.png'
+import cardCaminoDev from '../assets/camino-dev/cardCaminoDev.png'
+import cardVsCode from '../assets/blogVsCode/cardVsCode.png'
 
 const MainBlogs = () => (
   <main>

@@ -4,7 +4,7 @@ import MainBlog from '../components/MainBlog';
 import SectionBgImage from '../components/SectionBgImage';
 import SectionAuthor from '../components/SectionAuthor';
 import SectionContentBlog from '../components/SectionContentBlog';
-import bgCaminoDev from '../assets/static/bgCaminoDev.png';
+import bgCaminoDev from '../assets/camino-dev/bgCaminoDev.png';
 
 const CaminoDev = () => (
   <>
