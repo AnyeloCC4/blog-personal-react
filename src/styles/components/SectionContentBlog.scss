@@ -24,3 +24,9 @@
   color: $color-claro;
   text-decoration: underline;
 }
+.section__post--doubleImg {
+  display: flex;
+}
+.section__post--doubleImg img {
+  max-width: 350px;
+}

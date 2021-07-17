@@ -3,8 +3,8 @@ import SectionBannerHome from '../components/SectionBannerHome'
 import SectionTitulo from '../components/SectionTitulo'
 import SectionBlog from '../components/SectionBlog'
 import ContainerBlog from './ContainerBlog'
-import cardCaminoDev from '../assets/static/cardCaminoDev.png'
-import cardVsCode from '../assets/static/cardVsCode.png'
+import cardCaminoDev from '../assets/camino-dev/cardCaminoDev.png'
+import cardVsCode from '../assets/blogVsCode/cardVsCode.png'
 
 
 const MainHome = () => (
@@ -18,7 +18,7 @@ const MainHome = () => (
         to="/extensiones-vsc"
         imagenBlog={cardVsCode}
         titleBlog="Extensiones Para Visual Studio Code"
-        parrafo="Quiero compartir contigo las extensiones que utilizo para codear."
+        parrafo="Quiero compartir contigo las extensiones que utilizo para codear (Con ejemplos)."
       />
       <ContainerBlog
         to="/camino-dev"
