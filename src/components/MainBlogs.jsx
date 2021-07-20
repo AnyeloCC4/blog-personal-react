@@ -2,8 +2,10 @@ import React from 'react';
 import SectionTitulo from './SectionTitulo';
 import SectionBlog from './SectionBlog';
 import ContainerBlog from './ContainerBlog';
-import cardCaminoDev from '../assets/camino-dev/cardCaminoDev.png'
-import cardVsCode from '../assets/blogVsCode/cardVsCode.png'
+import smallCaminoDev from '../assets/camino-dev/smallCaminoDev.png'
+import largeCaminoDev from '../assets/camino-dev/largeCaminoDev.png'
+import smallCardVsCode from '../assets/blogVsCode/smallVsCode.png'
+import largeCardVsCode from '../assets/blogVsCode/largeVsCode.png'
 
 const MainBlogs = () => (
   <main>
@@ -16,12 +18,14 @@ const MainBlogs = () => (
         to="/extensiones-vsc"
         titleBlog="Extensiones Para Visual Studio Code"
         parrafo="Quiero compartir contigo las extensiones que utilizo para codear."
-        imagenBlog={cardVsCode}
+        smallImage={smallCardVsCode}
+        largeImage={largeCardVsCode}
       />
       <ContainerBlog
         titleBlog="Mí Camino en la Programación"
         parrafo="Con la ayuda de internet puedes lograrlo, pero con tanta información, ¿Por dónde comienzas?"
-        imagenBlog={cardCaminoDev}
+        smallImage={smallCaminoDev}
+        largeImage={largeCaminoDev}
         to="/camino-dev"
       />
     </SectionBlog>
