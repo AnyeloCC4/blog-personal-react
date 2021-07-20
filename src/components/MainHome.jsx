@@ -3,7 +3,8 @@ import SectionBannerHome from '../components/SectionBannerHome'
 import SectionTitulo from '../components/SectionTitulo'
 import SectionBlog from '../components/SectionBlog'
 import ContainerBlog from './ContainerBlog'
-import cardCaminoDev from '../assets/camino-dev/cardCaminoDev.png'
+import smallCaminoDev from '../assets/camino-dev/smallCaminoDev.png'
+import largeCaminoDev from '../assets/camino-dev/largeCaminoDev.png'
 import smallCardVsCode from '../assets/blogVsCode/smallVsCode.png'
 import largeCardVsCode from '../assets/blogVsCode/largeVsCode.png'
 
@@ -23,8 +24,8 @@ const MainHome = () => (
       />
       <ContainerBlog
         to="/camino-dev"
-        smallImage={smallCardVsCode}
-        largeImage={largeCardVsCode}
+        smallImage={smallCaminoDev}
+        largeImage={largeCaminoDev}
         titleBlog="Mí Camino en la Programación"
         parrafo="Con la ayuda de internet puedes lograrlo, pero con tanta información, ¿Por dónde comienzas?"
       />
