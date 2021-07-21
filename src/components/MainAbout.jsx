@@ -20,13 +20,13 @@ const MainAbout = () => (
         to="#"
         titleBlog="Proximamente E-commerce"
         parrafo="Trabajando en este proyecto"
-        imagenBlog={enProceso}
+        smallImage={enProceso}
       />
       <ContainerBlog
         to="#"
         titleBlog="Proximamente Portal de Noticias"
         parrafo="Trabajando en este proyecto"
-        imagenBlog={enProceso}
+        smallImage={enProceso}
       />
     </SectionBlog>
 
