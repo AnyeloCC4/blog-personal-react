@@ -7,6 +7,8 @@ import smallCaminoDev from '../assets/camino-dev/smallCaminoDev.png'
 import largeCaminoDev from '../assets/camino-dev/largeCaminoDev.png'
 import smallCardVsCode from '../assets/blogVsCode/smallVsCode.png'
 import largeCardVsCode from '../assets/blogVsCode/largeVsCode.png'
+import smallAtajosVSCode from '..//assets/atajosVsCode/atajosVsCodeSmall.png'
+import largeAtajosVSCode from '../assets/atajosVsCode/atajosVsCodeLarge.png'
 
 const MainHome = () => (
   <main>
@@ -15,6 +17,13 @@ const MainHome = () => (
       tituloSecundario="Últimas Publicaciones"
     />
     <SectionBlog>
+      <ContainerBlog
+        to="/atajos-vsc"
+        smallImage={smallAtajosVSCode}
+        largeImage={largeAtajosVSCode}
+        titleBlog="Atajos para Visual Studio Code"
+        parrafo="Te muestro con ejemplos algunos de los atajos mas utiles, para optimizar tú tiempo."
+      />
       <ContainerBlog 
         to="/extensiones-vsc"
         smallImage={smallCardVsCode}

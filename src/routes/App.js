@@ -5,6 +5,7 @@ import About from '../container/About';
 import Blogs from '../container/Blogs';
 import CaminoDev from '../container/CaminoDev';
 import ExtVsCode from '../container/ExtVsCode';
+import AtajosVsCode from '../container/AtajosVsCode';
 import NotFound from '../container/NotFound';
 import Layout from '../components/Layout';
 import '../styles/App.scss';
@@ -18,6 +19,7 @@ const App = () => (
         <Route exact path="/blogs" component={Blogs} />
         <Route exact path="/camino-dev" component={CaminoDev} />
         <Route exact path="/extensiones-vsc" component={ExtVsCode} />
+        <Route exact path="/atajos-vsc" component={AtajosVsCode} />
         <Route component={NotFound} />
       </Switch>
     </Layout>
