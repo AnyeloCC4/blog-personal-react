@@ -20,7 +20,7 @@ const AtajosVsCode = () => (
       <title>Atajos VS Code - Anyelo Cruz</title>
     </Helmet>
     <MainBlog>
-      <SectionBgImage imagenFondo={bgAtajosSmall}/>
+      <SectionBgImage imagenFondo={bgAtajosLarge}/>
       <SectionAuthor fecha="03/08/2021"/>
       <SectionContentBlog>
         <h1><em>Atajos para Visual Studio Code</em></h1>
