@@ -20,7 +20,10 @@ const AtajosVsCode = () => (
       <title>Atajos VS Code - Anyelo Cruz</title>
     </Helmet>
     <MainBlog>
-      <SectionBgImage imagenFondo={bgAtajosLarge}/>
+      <SectionBgImage 
+        imageSmall={bgAtajosSmall}
+        imageLarge={bgAtajosLarge}
+      />
       <SectionAuthor fecha="03/08/2021"/>
       <SectionContentBlog>
         <h1><em>Atajos para Visual Studio Code</em></h1>
@@ -47,7 +50,7 @@ const AtajosVsCode = () => (
         <p>cuando quieras cambiar el nombre de algún elemento, variable, o lo que sea que tenga el mismo nombre con “Ctrl + D” puedes seleccionarlas y modificarlas sin tener que seleccionar una por una, solo necesitas que el punto de inserción se encuentre en la palabra que se está repitiendo y que va a ser modificada, observa.</p>
         <img src={coincidencias} alt="Ejemplo para Selecionar Coincidencias" />
 
-        <p>A continuación los enlaces con la lista completa de atajos de Visual Studio Code, para ambos sistema Operativo.
+        <p>A continuación los enlaces con la lista completa de atajos de Visual Studio Code, para cada sistema operativo.
         <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a>
         <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a>
         <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">MacOs</a>

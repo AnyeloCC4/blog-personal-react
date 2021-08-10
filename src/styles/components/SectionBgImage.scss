@@ -2,11 +2,15 @@
 
 .section__bgImage {
   background: #a4a6a8;
+  height: 300px;
+  width: 100%;
+}
+.section__bgImage__picture {
+  height: inherit;
+  width: inherit;
   display: flex;
   justify-content: center;
   position: relative;
-  height: 300px;
-  width: 100%;
 }
 .section__bgImage--img {
   margin: 0 auto;

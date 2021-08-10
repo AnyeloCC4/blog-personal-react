@@ -27,7 +27,10 @@ const ExtVsCode = () => (
       <title>Extensiones VS Code - Anyelo Cruz</title>
     </Helmet>
     <MainBlog>
-      <SectionBgImage imagenFondo={bgVsCode} />
+      <SectionBgImage 
+        imageSmall={bgVsCode}
+        imageLarge={bgVsCode}
+      />
       <SectionAuthor fecha="30/05/2021" />
       <SectionContentBlog>
         <h1><em>Extensiones para Visual Studio Code</em></h1>

@@ -14,7 +14,10 @@ const CaminoDev = () => (
       <title>Mi Camino en la Programación - Anyelo Cruz</title>
     </Helmet>
     <MainBlog>
-      <SectionBgImage imagenFondo={bgCaminoDev} />
+      <SectionBgImage 
+        imageSmall={bgCaminoDev}
+        imageLarge={bgCaminoDev}
+      />
       <SectionAuthor fecha="14/05/2021" />
       <SectionContentBlog>
         <h1><em>Mi Camino en la Programación</em></h1>
