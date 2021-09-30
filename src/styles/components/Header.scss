@@ -3,6 +3,14 @@
 .header {
   height: 50px;
   &__nav {
+    position: fixed;
+    background: linear-gradient(
+    0deg,
+    #180928e5,
+    rgba(20, 5, 35, 0.952) 100%
+  );
+    width: 1080px;
+    border-radius: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

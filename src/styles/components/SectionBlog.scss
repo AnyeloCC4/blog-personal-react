@@ -6,7 +6,7 @@
   display: grid;
   grid-template: repeat(1, minmax(380px, 400px)) / repeat(
       1,
-      minmax(280px, 400px)
+      minmax(280px, 350px)
     );
   gap: 20px;
   justify-content: center;

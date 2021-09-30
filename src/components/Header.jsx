@@ -8,7 +8,7 @@ const Header = () => {
       <nav className="header__nav">
         <Link to="/">🏠 Inicio</Link>
         <Link to="/blogs">✍️ Blogs</Link>
-        <Link to="/about">🧑‍💻 Sobre Mí</Link>
+        <Link to="/about">👨‍💻 Sobre Mí</Link>
       </nav>
   </header>
   )
