@@ -8,12 +8,12 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__social">
-        <a href="https://twitter.com/AnyeloCC4"><img src={twitter} alt="Twitter" title="twitter"/>Twitter</a>
-        <a href="https://github.com/AnyeloCC4"><img src={github} alt="Github" title="github"/>GitHub</a>
-        <a href="https://www.linkedin.com/in/anyelocc4/"><img src={linkedin} alt="LinkedIn" title="linkedin"/>LinkedIn</a>
+        <a target="_blank" href="https://twitter.com/AnyeloCC4"><img src={twitter} alt="Twitter" title="twitter"/>Twitter</a>
+        <a target="_blank" href="https://github.com/AnyeloCC4"><img src={github} alt="Github" title="github"/>GitHub</a>
+        <a target="_blank" href="https://www.linkedin.com/in/anyelocc4/"><img src={linkedin} alt="LinkedIn" title="linkedin"/>LinkedIn</a>
       </div>
       <div className="footer__end">
-        <p>Compartiendo un poco de mi con ustedes <br/> @AnyeloCC4</p>
+        <p>Compartiendo un poco de mi con ustedes <br/> Hecho con 💚 @AnyeloCC4</p>
       </div>
   </footer>
   )
