@@ -24,7 +24,7 @@
   color: $color-claro;
 }
 .section__post a:hover {
-  color: rgb(253, 253, 142);
+  color: $color-hover;
   text-decoration: underline;
 }
 .section__post--doubleImg {

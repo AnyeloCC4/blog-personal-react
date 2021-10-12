@@ -21,5 +21,11 @@
   }
   a {
     color: $color-claro;
+    padding: 5px;
+  }
+  a:hover {
+    border: 2px solid $color-hover;
+    border-radius: 5px;
+    color: $color-hover;
   }
 }

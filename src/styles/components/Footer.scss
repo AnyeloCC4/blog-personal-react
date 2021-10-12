@@ -15,6 +15,12 @@
     justify-content: center;
     align-items: center;
     color: $color-claro;
+    margin: 5px;
+  }
+  &__social a:hover {
+    border: 2px solid $color-hover;
+    border-radius: 5px;
+    color: $color-hover;
   }
   &__social a img {
     width: 50px;
