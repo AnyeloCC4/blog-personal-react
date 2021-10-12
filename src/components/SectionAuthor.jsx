@@ -7,8 +7,8 @@ const SectionAuthor = ({fecha}) => (
     <div className="section__author--card">
       <img src={authorFoto} alt="foto de perfil" title="foto de perfil" />
       <div>
-        <h3>Escrito por: Anyelo Cruz</h3>
-        <h3>Publicado: {fecha}</h3>
+        <h3>📝 Escrito por: Anyelo Cruz</h3>
+        <h3>🗓️ Publicado: {fecha}</h3>
       </div>
     </div>
   </section>
