@@ -16,11 +16,12 @@
     align-items: center;
     color: $color-claro;
     margin: 5px;
+    padding: 5px;
   }
   &__social a:hover {
-    border: 2px solid $color-hover;
+    background-color: $color-claro;
+    color: $color-oscuro;
     border-radius: 5px;
-    color: $color-hover;
   }
   &__social a img {
     width: 50px;

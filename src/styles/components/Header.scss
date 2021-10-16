@@ -24,8 +24,8 @@
     padding: 5px;
   }
   a:hover {
-    border: 2px solid $color-hover;
+    background-color: $color-claro;
+    color: $color-oscuro;
     border-radius: 5px;
-    color: $color-hover;
   }
 }
