@@ -29,7 +29,7 @@ const CaminoDev = () => (
         <p>Frustrado, comencé a ver otro tipo de cursos que pudieran orientarme por donde continuar, fue cuando vi el curso Aprender en línea efectivamente. Aquí, entendí cómo funcionaba la plataforma, descubrí que tipo de estudiante soy y qué tipo de material se adecua más a mi aprendizaje, luego continúe con Gestión Efectiva del tiempo y técnicas de estudio, que fueron los que definitivamente me ayudaron a enfocarme cómo aprender a cómo organizar mi espacio de trabajo y tiempo. Pero y ahora... ¿Por donde continuo?</p>
 
         <h2><em>Busca algo mas básico</em></h2>
-        <p>Ahora, que sabía que tenía que comenzar por algo más... para principiante, hay fue que apareció el Curso Básico de Javascript(en adelante lo llamaré JS), que guío mi camino hacia el desarrollo web pero antes continúe con programación Básica donde aprendí más sobre JS ademas conoci HTML (HyperText Markup Language, hace referencia al lenguaje de marcado para la elaboración de páginas web. ) y cada vez me sentía mejor con estos lenguajes. inmediatamente empecé con la escuela de Desarrollo Web, donde comenzaron realmente los problemas. </p>
+        <p>Ahora, que sabía que tenía que comenzar por algo más... para principiante, hay fue que apareció el Curso Básico de Javascript, que guío mi camino hacia el desarrollo web pero antes continúe con programación Básica donde aprendí más sobre JS ademas conoci HTML y cada vez me sentía mejor con estos lenguajes. inmediatamente empecé con la escuela de Desarrollo Web, donde comenzaron realmente los problemas. </p>
 
         <p>Que me gustara JS no significaba que lo hubiese dominado, sólo me encanto como funcionaba al ver lo que se podía lograr programando.  Al comenzar la ruta, HTML y CSS estaban en los primero cursos, los cursos de JS se encontraban al final de la parte básica, asi que  continúe tomando los cursos, cuando tuve 10 cursos aprobados, comencé a sentir que sabía lo suficiente como para crear un layout, para probar mis habilidades, pero cuando llegó la hora de realizarlo, no sabía por donde comenzar ni mucho menos como hacerlo, pero, ¿Qué estaba haciendo mal?</p>
 
@@ -46,7 +46,7 @@ const CaminoDev = () => (
         <p>
           <strong>En fin...</strong>
           {' '}
-          Espero que te haya gustado, y te lleves alguna lección de mi experiencia. Gracias por llegar hasta aquí, que tengas un buen día.
+          Espero que te haya gustado, y te lleves alguna lección de mi experiencia. Gracias por llegar hasta aquí, nos vemos en un siguiente articulo.
         </p>
       </SectionContentBlog>
     </MainBlog>
